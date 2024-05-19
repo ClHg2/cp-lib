@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+  - -std=c++14
+  - -xc++
+Diagnostics:
+  ClangTidy:
+    Add:
+    - bugprone-*
+    - modernize-*
+    - performance-*
+    Remove:
+    - bugprone-easily-swappable-parameters
+    - modernize-use-trailing-return-type
+  Suppress:
+  - c++17-extensions
+  - c++20-extensions
+  - unqualified-std-cast-call
