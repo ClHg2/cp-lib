@@ -1,4 +1,4 @@
-alias clr='clear'
+alias clr='printf "\ec"'
 alias gdb='gdb -q'
 alias gtime='/usr/bin/time -v'
 alias py='python3'
